@@ -2,7 +2,7 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" md="8">
-        <v-card v-if="post" class="pa-4">
+        <v-card elevation="4" v-if="post" class="pa-4">
           <v-card-title class="text-h5 font-weight-bold">
             {{ post.title }}
           </v-card-title>
