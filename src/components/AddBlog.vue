@@ -3,7 +3,7 @@
     <v-dialog v-model="dialog" max-width="600">
       <template v-slot:activator="{ props: activatorProps }">
         <v-btn
-          class="text-none font-weight-regular"
+          class="text-none font-weight-regular mb-4"
           prepend-icon="mdi-pen"
           text="Create Blog"
           variant="tonal"
